@@ -1,0 +1,46 @@
+body{
+  background-color: #3A5795;
+  font: Helvetica,Arial,'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','モリサワ 新ゴ R','Droid Sans',メイリオ,'sans-serif';
+font-family:Helvetica,Arial,'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','モリサワ 新ゴ R','Droid Sans',メイリオ,'sans-serif';/*for IE Quirks Mode*/
+}
+
+h1{
+  color:#fff;
+}
+
+#fb-list{
+  margin: 0;
+  padding: 0;
+  li {
+    line-height: 1.4;
+    background-color: #E5E8F1;
+    padding: 0;
+    list-style:none;
+    padding: 10px;
+    margin: 10px 0;
+    border-bottom: 1px solid #000;
+    span{
+      display:block;
+      overflow: hidden;
+      margin: 0px 10px 5px 0;
+      float: left;
+      max-width:140px;
+      line-height:1;
+    }
+    time{
+      display:block;
+      
+    }
+  }
+  a{
+    display:block;
+    font-weight:bold;
+  }
+}
+
+#fb-list li:before,
+#fb-list li:after{
+  clear:both;
+  content:"";
+  display:table;
+}
