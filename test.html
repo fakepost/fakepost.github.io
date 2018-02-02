@@ -12,12 +12,7 @@
 <h1>Fake facebook posts</h1>
 <div class="facebookfeed">Loading...</div>
 
-
 </body>
-
-
-
-
 
 <script>
 function fbFetch(data) {
@@ -68,16 +63,11 @@ function fbFetch(data) {
     });
 
 }
-       
-var wordList = [];
+
 $.get('database.txt.txt', function(data) {
-   //do_something_with(data)
-   //wordList = data.split('\n');
-   console.log(data);
+     console.log(data);
    fbFetch(data);
-}, 'text');
+}, 'text'); //type = text file
            
-
-
 </script>
 </html>
