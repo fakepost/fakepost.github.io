@@ -15,9 +15,10 @@
 </body>
 
 <script>
-
+$( document ).ready(function() {
+    console.log( "ready!" );
        
-var feedList = [];
+       var feedList = [];
 $.get('https://fakepost.github.io/embed.txt', function(data) {
    //do_something_with(data)
    wordList = data.split('=>');
@@ -43,6 +44,9 @@ $.get('https://fakepost.github.io/embed.txt', function(data) {
    
 }, 'text');
            
+});
+       
+
 
 
 </script>
